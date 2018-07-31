@@ -4,7 +4,7 @@ connection: "thelook_events_redshift"
 include: "*.view"
 
 # include all the dashboards
-include: "*.dashboard"
+#include: "*.dashboard"
 
 explore: bsandell {}
 
