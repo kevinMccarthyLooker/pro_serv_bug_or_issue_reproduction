@@ -95,6 +95,12 @@ view: order_items {
     drill_fields: [detail*]
   }
 
+  measure: count_of_orders {
+    description: "This measure is intentionally broken"
+    type: count_distinct
+    sql: orderid ;;
+  }
+
   # ----- Sets of fields for drilling ------
   set: detail {
     fields: [
